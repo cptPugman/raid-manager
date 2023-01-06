@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "utf-8">
+	<title>Composición Raid Bratania</title>
+	<link rel= "stylesheet" href= "setupRaids.css">
+</head>
+<body>
+
+	
+	<table id = "listaPlayers"></table>
+	<table id = "playersRaid"> </table>
+
+	<script type="text/javascript" src="clases/raider.js"></script>
+	<script type="text/javascript" src="clases/guild.js"></script>
+	<script type="text/javascript" src="clases/formularyPlayer.js"></script>
+
+	<form id= "Form">
+		Añadir Player: <input type="text" id="nombreForm" name="nombrePlayer"><br>
+		Clase: <input type="text" id="claseForm" name="clase"><br>
+		Spec: <input type="text" id= "specForm" name="spec"><br>
+		<input type="button" onclick = "añadirPlayer()" name="Añadir">
+	</form>
+
+
+	<table id = "raidSetup">
+	</table>
+	
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+#listaPlayers{
+	border-spacing: 5px;
+	margin: 100px;
+	background-color: gray;
+	border: 5px;
+	border-color: black;
+}
+
+#tabla1{
+	border: 5px;
+	margin: 100px;
+	border-color: red;
+}
